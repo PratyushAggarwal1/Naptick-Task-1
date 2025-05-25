@@ -1,7 +1,7 @@
 # Naptick-Task-1
 # Naptick AI - Generalized RAG Sleep & Wellness Coach
 
-This repository contains the Python script (`your_script_name.py`) for a Retrieval Augmented Generation (RAG) based AI assistant focused on sleep and wellness. It uses a generalized knowledge base and can be run in Google Colab.
+This repository contains the Python script (`Naptick_1.py`) for a Retrieval Augmented Generation (RAG) based AI assistant focused on sleep and wellness. It uses a generalized knowledge base and can be run in Google Colab.
 
 ## Features
 
@@ -31,21 +31,20 @@ This repository contains the Python script (`your_script_name.py`) for a Retriev
 
       ```python
       # Option 1: Clone the repo (if you have other files or want to keep it organized)
-      !git clone https://github.com/your_username/your_repository_name.git
-      %cd your_repository_name
+      !git clone https://github.com/PratyushAggarwal1/Naptick-Task-1.git
+      %cd Naptick-Task-1
 
       # Then, to run the script:
-      !python your_script_name.py
+      !python Naptick_1.py
       ```
 
       OR
 
       ```python
       # Option 2: Directly download and run the script (simpler for a single file)
-      !wget https://raw.githubusercontent.com/your_username/your_repository_name/main/your_script_name.py
-      !python your_script_name.py
+      !wget https://raw.githubusercontent.com/PratyushAggarwal1/Naptick-Task-1/main/Naptick_1.py
+      !python Naptick_1.py
       ```
-      *(Replace `your_username`, `your_repository_name`, `your_script_name.py`, and `main` (if your default branch is different) with your actual details.)*
 
 4.  **Execution Notes:**
     *   **First Run:** The script will take several minutes to install libraries, download models (embedding model & LLM), generate data, and build vector stores. You'll need to authorize Google Drive access when prompted by the script.
